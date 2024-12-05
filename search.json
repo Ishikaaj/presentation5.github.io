@@ -96,5 +96,12 @@
     "title": "How Sure Can We Be About What Is Going On?",
     "section": "OVERALL QUIZ",
     "text": "OVERALL QUIZ\nWhat are two key ways to handle uncertainty in statistics?\na) Ignoring it and focusing on the average.\nb) Using confidence intervals and resampling methods like bootstrapping.\nc) Relying on randomness alone.\nd) Collecting as little data as possible to avoid complications."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
