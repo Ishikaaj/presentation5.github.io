@@ -1,0 +1,151 @@
+---
+title: "How Sure Can We Be About What Is Going On? "
+format: revealjs
+editor: visual
+---
+
+## INTRODUCTION
+
+Question
+
+**When we measure something from a sample, do you think it gives us the exact truth about the population? Why or why not?**
+
+## **Objective of the presentation**
+
+-   Learn about uncertainty in statistics.
+
+-   Explore tools like confidence intervals, margins of error, and bootstrapping.
+
+-   Understand different types of uncertainty and their role in decision-making.
+
+## What is Uncertainty in Statistics?
+
+Whenever we use a **sample** to estimate something about a **population**, there’s always some uncertainty.
+
+-   **Randomness**: Every sample is different.
+
+-   **Measurement Errors**: Mistakes or variability in data collection.
+
+## Confidence Intervals
+
+-   It’s a range where the true value is likely to be.
+
+    Example: A survey says 52% of people support a policy with a 95% CI of ±3%.
+
+    -   This means the true support is likely between **49% and 55%**.
+
+## MARGINS OF ERROR
+
+**What is Margin of Error?**
+
+-   It tells us how much the result could vary because of sampling.
+
+-   Example: A poll result of 40% with a margin of error of ±5% means the true value is between **35% and 45%**.
+
+Please note - Larger samples reduce the margin of error.
+
+## BOOTSRTAPPING
+
+Bootstrapping method to measure the uncertainty in data using the data itself!
+
+-   **Why It’s Useful**:
+
+    -   Works well for small samples or unusual data where normal methods fail.
+
+    -   Helps us see how stable our results are.
+
+## ALEATORY VS EPISTEMIC
+
+### **Aleatory Uncertainty**
+
+Aleatory uncertainty results from a system or process's natural randomness. This type of variability arises spontaneously and is predictable overall over a large number of situations yet unpredictable for individual cases.
+
+**Examples**:
+
+1.  The outcome of rolling a dice.
+
+2.  The weather on a specific day (due to natural variability).
+
+3.  The lifespan of light bulbs (random failure times).
+
+## **Epistemic Uncertainty**
+
+Epistemic uncertainty arises from incomplete knowledge or imperfect information about a system. It reflects the limitations in our understanding and can be reduced by gathering more data or improving models.
+
+**Examples**:
+
+1.  Estimating the average height of a population from a small sample.
+
+2.  Predicting the effect of a new drug with limited trial data.
+
+3.  Forecasting the number of fish in a lake based on incomplete survey data.
+
+## DIFFERENCES
+
+| Aspect | Aleatory | Epistemic |
+|------------------------|------------------------|------------------------|
+| Source | Internal variability or randomness | Lack of Knowledge or Data |
+| Can it be changed? | No, its naturally in your system | Yes, through more data |
+| Examples | Rolling of a dice | Calculating population values that are unknown |
+| How to address it? | Make use of predictive models. | Gather more data |
+
+## QUESTION
+
+### Confidence Intervals
+
+\
+*If a poll says 60% of students love chocolate with a 95% CI of ±4%, what does this mean?*\
+a) Everyone loves chocolate.\
+b) The true percentage is definitely 60%.\
+c) The true percentage likely lies between 56% and 64%.\
+d) The poll has no uncertainty.
+
+## QUESTION
+
+### Margins of Error
+
+What happens to the margin of error if you increase the sample size?\
+a) It stays the same.\
+b) It gets smaller.\
+c) It gets larger.\
+d) It doubles.
+
+## QUESTION
+
+### Bootstrapping
+
+Why might bootstrapping be useful?\
+a) It reduces randomness.\
+b) It works for small samples and unusual data.\
+c) It gives the exact true value of the population.\
+d) It doesn’t require sampling.
+
+## Classify the following situations into Aleatory or Epistemic
+
+1\) Drawing a card from a shuffled deck
+
+2\) Determining the outcome of a medical treatment with limited clinical trial data
+
+3\) Determining the exact number of people attending a large concert based on incomplete ticket sales data
+
+## OVERALL QUIZ
+
+**What are two key ways to handle uncertainty in statistics?**\
+a) Ignoring it and focusing on the average.\
+b) Using confidence intervals and resampling methods like bootstrapping.\
+c) Relying on randomness alone.\
+d) Collecting as little data as possible to avoid complications.
+
+# References
+
+Efron, B., & Tibshirani, R. J. (1994). *An Introduction to the Bootstrap*. CRC Press.
+
+Ferson, S., Ginzburg, L. R., & Goldstein, M. (2004). Aleatory and epistemic uncertainty in probability assessment. *Risk Analysis, 24*(1), 25-34.
+
+Groves, R. M., Fowler, F. J., Couper, M. P., Lepkowski, J. M., Singer, E., & Tourangeau, R. (2009). *Survey Methodology*. Wiley.
+
+Lumley, T. (2010). *Complex Surveys: A Guide to Analysis Using R*. Wiley.
+
+Spiegelhalter, D. (2019). *The Art of Statistics: Learning from Data*. Pelican.
+
+Wasserman, L. (2013). *All of Statistics: A Concise Course in Statistical Inference*. Springer.

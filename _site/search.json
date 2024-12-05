@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "INTRODUCTION",
+    "text": "INTRODUCTION\nQuestion\nWhen we measure something from a sample, do you think it gives us the exact truth about the population? Why or why not?"
+  },
+  {
+    "objectID": "index.html#objective-of-the-presentation",
+    "href": "index.html#objective-of-the-presentation",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "Objective of the presentation",
+    "text": "Objective of the presentation\n\nLearn about uncertainty in statistics.\nExplore tools like confidence intervals, margins of error, and bootstrapping.\nUnderstand different types of uncertainty and their role in decision-making."
+  },
+  {
+    "objectID": "index.html#what-is-uncertainty-in-statistics",
+    "href": "index.html#what-is-uncertainty-in-statistics",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "What is Uncertainty in Statistics?",
+    "text": "What is Uncertainty in Statistics?\nWhenever we use a sample to estimate something about a population, there’s always some uncertainty.\n\nRandomness: Every sample is different.\nMeasurement Errors: Mistakes or variability in data collection."
+  },
+  {
+    "objectID": "index.html#confidence-intervals",
+    "href": "index.html#confidence-intervals",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "Confidence Intervals",
+    "text": "Confidence Intervals\n\nIt’s a range where the true value is likely to be.\nExample: A survey says 52% of people support a policy with a 95% CI of ±3%.\n\nThis means the true support is likely between 49% and 55%."
+  },
+  {
+    "objectID": "index.html#margins-of-error",
+    "href": "index.html#margins-of-error",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "MARGINS OF ERROR",
+    "text": "MARGINS OF ERROR\nWhat is Margin of Error?\n\nIt tells us how much the result could vary because of sampling.\nExample: A poll result of 40% with a margin of error of ±5% means the true value is between 35% and 45%.\n\nPlease note - Larger samples reduce the margin of error."
+  },
+  {
+    "objectID": "index.html#bootsrtapping",
+    "href": "index.html#bootsrtapping",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "BOOTSRTAPPING",
+    "text": "BOOTSRTAPPING\nBootstrapping method to measure the uncertainty in data using the data itself!\n\nWhy It’s Useful:\n\nWorks well for small samples or unusual data where normal methods fail.\nHelps us see how stable our results are."
+  },
+  {
+    "objectID": "index.html#aleatory-vs-epistemic",
+    "href": "index.html#aleatory-vs-epistemic",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "ALEATORY VS EPISTEMIC",
+    "text": "ALEATORY VS EPISTEMIC\nAleatory Uncertainty\nAleatory uncertainty results from a system or process’s natural randomness. This type of variability arises spontaneously and is predictable overall over a large number of situations yet unpredictable for individual cases.\nExamples:\n\nThe outcome of rolling a dice.\nThe weather on a specific day (due to natural variability).\nThe lifespan of light bulbs (random failure times)."
+  },
+  {
+    "objectID": "index.html#epistemic-uncertainty",
+    "href": "index.html#epistemic-uncertainty",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "Epistemic Uncertainty",
+    "text": "Epistemic Uncertainty\nEpistemic uncertainty arises from incomplete knowledge or imperfect information about a system. It reflects the limitations in our understanding and can be reduced by gathering more data or improving models.\nExamples:\n\nEstimating the average height of a population from a small sample.\nPredicting the effect of a new drug with limited trial data.\nForecasting the number of fish in a lake based on incomplete survey data."
+  },
+  {
+    "objectID": "index.html#differences",
+    "href": "index.html#differences",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "DIFFERENCES",
+    "text": "DIFFERENCES\n\n\n\n\n\n\n\n\nAspect\nAleatory\nEpistemic\n\n\n\n\nSource\nInternal variability or randomness\nLack of Knowledge or Data\n\n\nCan it be changed?\nNo, its naturally in your system\nYes, through more data\n\n\nExamples\nRolling of a dice\nCalculating population values that are unknown\n\n\nHow to address it?\nMake use of predictive models.\nGather more data"
+  },
+  {
+    "objectID": "index.html#question",
+    "href": "index.html#question",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "QUESTION",
+    "text": "QUESTION\nConfidence Intervals\n\nIf a poll says 60% of students love chocolate with a 95% CI of ±4%, what does this mean?\na) Everyone loves chocolate.\nb) The true percentage is definitely 60%.\nc) The true percentage likely lies between 56% and 64%.\nd) The poll has no uncertainty."
+  },
+  {
+    "objectID": "index.html#question-1",
+    "href": "index.html#question-1",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "QUESTION",
+    "text": "QUESTION\nMargins of Error\nWhat happens to the margin of error if you increase the sample size?\na) It stays the same.\nb) It gets smaller.\nc) It gets larger.\nd) It doubles."
+  },
+  {
+    "objectID": "index.html#question-2",
+    "href": "index.html#question-2",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "QUESTION",
+    "text": "QUESTION\nBootstrapping\nWhy might bootstrapping be useful?\na) It reduces randomness.\nb) It works for small samples and unusual data.\nc) It gives the exact true value of the population.\nd) It doesn’t require sampling."
+  },
+  {
+    "objectID": "index.html#classify-the-following-situations-into-aleatory-or-epistemic",
+    "href": "index.html#classify-the-following-situations-into-aleatory-or-epistemic",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "Classify the following situations into Aleatory or Epistemic",
+    "text": "Classify the following situations into Aleatory or Epistemic\n1) Drawing a card from a shuffled deck\n2) Determining the outcome of a medical treatment with limited clinical trial data\n3) Determining the exact number of people attending a large concert based on incomplete ticket sales data"
+  },
+  {
+    "objectID": "index.html#overall-quiz",
+    "href": "index.html#overall-quiz",
+    "title": "How Sure Can We Be About What Is Going On?",
+    "section": "OVERALL QUIZ",
+    "text": "OVERALL QUIZ\nWhat are two key ways to handle uncertainty in statistics?\na) Ignoring it and focusing on the average.\nb) Using confidence intervals and resampling methods like bootstrapping.\nc) Relying on randomness alone.\nd) Collecting as little data as possible to avoid complications."
+  }
+]
